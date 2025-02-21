@@ -75,7 +75,11 @@ alias gc="git commit -m"       # Commit with message.
 alias gp="git push"            # Push to remote.
 alias reload="source ~/.zshrc" # Reload Zsh config.
 alias zshconfig="$EDITOR ~/.zshrc" # Edit Zsh config.
-
+alias pn="pnpm"
+alias pnd="pnpm dev"
+alias pni="pnpm i"
+alias pns="pnpm start"
+alias pnb="pnpm build"
 # Custom functions
 # Quick directory navigation with `cd` history.
 function cd() {
